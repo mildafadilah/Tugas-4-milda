@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulir pendaftaran PKL</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+    <h1 align="center">formulir pendaftaran PKL</h1>
+<body>
+    <form action="/actionpage_php"></form>
+    <fieldset>
+        <legend>personalia:</legend>
+        <label for="fname">name:</label><br>
+        <input type="text"id="fname" name="fname" value="MILDA FADILAH"><br>
+
+        <label for="name">kelas:</label><br>
+        <input type="text"id="name"name="name"value=" XI RPL 2"><br><br>
+
+        <label for="name">tempat lahir</label><br>
+        <input type="text" id="1name" name="fname" value="Bandung"><br><br>
+
+        <label for="name">tanggal lahir</label><br>
+        <input type="date" id="name" name="ttl" value="22 juli"><br><br>
+
+        <p>jenis kelamin</p>
+        <input type="radio" id="laki laki" name="fav_laguage" value="laki laki">
+        <label for="laki laki">laki laki</label><br>
+        <input type="radio" id="perempuan" name="fav_laguage" value="perempuan">
+        <label for="perempuan">perempuan</label><br>
+
+
+        <label for="name">usia:</label><br>
+        <input type="text" id="1name" name="fname" value=""><br>
+
+        <label for="agama">agama</label><br>
+        <select id="agama" name="agama"><br>
+            <option> islam </option>
+            <option value="kristen potestan">kristen potestan</option><br>
+            <option value="kristen katolik">kristen katolik</optio><br>
+            <option value="budha">budha</option><br>
+            <option value="hindu">hindu</option><br>
+            <option value="kongucu">kongucu</option><br>
+            <option value="penghayat kepercayaan">penghayat kepercayaan</option><br>
+        </select><br>
+    <div class="form-group">
+                <label for="provinsi">provinsi:</label> 
+                <select name="provinsi" id="provinsi"> 
+                <option value="jawa barat">jawa barat</option> 
+                <option value="jawa tengah">jawa tengah</option> 
+                <option value="jawa timur">jawa timur</option>   
+                <option value="dki jakarta">dki jakarta</option>     
+                </select>     
+            </div>
+
+    
+        <label for="name">alamat lengkap</label><br>
+        <input type="text" id="name" name="name" volue="k"><br><br>
+
+        <label for="name">RT</label><br>
+        <input type="text" id="name" namw="name" value="06"><br><br>
+
+        <label for="name">RW</label><br>
+        <input type="text" id="name" name="name" value="11"><br><br>
+        
+         <label for="name">kode pos</label><br>
+
+        <input type="text" id="name" namw="name" value=""><br><br>
+        
+        <label for="DESA KELURAHAN">Desa Kelurahan</label><br>
+        <select id="desa kelurahan" name="Desa Kelurahan"><br>
+        <option value="Cipada">Cipada</option><br> <option value="Jambudipa">Jambudipa</option><br>
+        <option value="Kertawangi">Kertawangi</option><br> 
+        <option value="Padaasih">Padaasih</option><br> 
+        <option value="Pasirhalang">Pasirhalang</option><br> 
+        <option value="Pasirlangu">Pasirlangu</option><br> 
+        <option value="Tugumukti"> Tugumukti</option><br> Emmet Abbreviati
+        <option value="Sadangmeker">Sadang mekar</option><br> </select><br>
+
+
+          <label for="KECAMATAN">Kecamatan</label><br> <select id="Kecamatan" name="Kecamatan"><br> 
+          <option value="cisarua">Cisarua</option><br>
+          <option value="cipatat">Cipatat</option><br>
+          <option value="cikalong wetan">Cikalong Wetan</option
+          <option value="lembang">Lembang</option><br> 
+          <option value="ngamprah">Ngamprah</option><br> <option value="kota cimahi">Parongpong</option><br>
+          <option value="Padalarang">Padalarang</option><br> 
+          </select><br>
+          <label for="Kabupaten]">Kabupaten</label><br> <select id="Kabupaten" name="Kabupaten"><br> 
+          <option value="KAB. BAN">bandung barat</option><br> 
+          <option value="bandung">bandung</option></option><br> <option value="sumedang">sumedang</option><br> 
+          <option value="cianjur">cianjur</option><br> <option value="kota bandung">kota bandung</option></option><br>
+          <option value="kota cimahi">kota cimahi</option><br>
+                    
+          
+<!-- Kontak -->
+            <h3>Kontak</h3>
+            <div class="form-group">
+                <label for="no_telpon_siswa">No Telpon Siswa:</label>
+                <input type="tel" id="no_telpon_siswa" name="no_telpon_siswa" required>
+            </div>
+            <div class="form-group">
+                <label for="no_orang_tua">No Orang Tua:</label>
+                <input type="tel" id="no_orang_tua" name="no_orang_tua" required>
+            </div>
+            <div class="form-group">
+                <label for="email_siswa">Email Siswa:</label>
+                <input type="email" id="email_siswa" name="email_siswa" required>
+            </div>
+
+            <!-- Akun -->
+            <h3>Akun</h3>
+            <div class="form-group">
+                <label for="user_name">Username:</label>
+                <input type="text" id="user_name" name="user_name" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm_password">Konfirmasi Password:</label>
+                <input type="password" id="confirm_password" name="confirm_password" required>
+            </div>
+
+            <!-- Tempat PKL -->
+            <h3>Tempat PKL</h3>
+            <div class="form-group checkbox-group">
+                <label><input type="checkbox" name="tempat_pkl[]" value="telkomsel"> Temkomsel</label>
+                <label><input type="checkbox" name="tempat_pkl[]" value="bank mandiri"> bank mandiri</label>
+                <label><input type="checkbox" name="tempat_pkl[]" value="gojek"> gojek</label>
+                <label><input type="checkbox" name="tempat_pkl[]" value="kompad"> kompas</label>
+                <label><input type="checkbox" name="tempat_pkl[]" value="toko pedia"> Tokopedia</label>
+                <label><input type="checkbox" name="tempat_pkl[]" value="lazada"> lazada</label>
+                <label><input type="checkbox" name="tempat_pkl[]" value="ruang guru"> ruang guru</label>
+                <label><input type="checkbox" name="tempat_pkl[]" value="dicoding"> dicoding</label>
+                <label><input type="checkbox" name="tempat_pkl[]" value="mitrais"> mitrais</label>
+                <label><input type="checkbox" name="tempat_pkl[]" value="telkom"> Telkom</label>
+                <label><input type="checkbox" name="tempat_pkl[]" value="start-up"> start-up</label>
+                <label><input type="checkbox" name="tempat_pkl[]" value="accenture"> accenture</label>
+                <label><input type="checkbox" name="tempat_pkl[]" value="bukalapak">bukalapak</label>
+                <label><input type="checkbox" name="tempat_pkl[]" value="blibli"> blibli</label>
+                <label><input type="checkbox" name="tempat_pkl[]" value="bank BTPN"> Bank BTPN</label>
+            </div>
+
+
+
+    </fieldset>
+</body>
+</html>
